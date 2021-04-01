@@ -19,41 +19,12 @@ import codeit_1 from '../image/codeit_1.PNG';
 import codeit_2 from '../image/codeit_2.PNG';
 import nomadcoder_1 from '../image/nomadcoder_1.PNG';
 import nomadcoder_2 from '../image/nomadcoder_2.PNG';
+import nomadcoder_3 from '../image/nomadcoder_3.PNG';
+import nomadcoder_4 from '../image/nomadcoder_4.PNG';
 
 export const projectsData = [
   {
-    title: 'EX Admin Dashboard',
-    description:
-      '클래스101에서 백엔드 개발자로 인턴쉽을 진행하며 EX팀 어드민 대시보드를 개발했습니다. 백엔드 개발자 2명, 프론트엔드 개발자 1명과 협업하여 1개월동안 개발했습니다.',
-    additionalDescription:
-      '이 대시보드에는 서로 다른 부서의 직원들이 친해질 수 있는 사내 친목조 생성 기능과 사내 비품(노트북, 모니터 등) 관리 기능이 있습니다.',
-    whatIHaveDone: [
-      '제품 기획단계부터 참여',
-      'Scrum 진행(주별 스프린트 미팅, 일별 스탠드업 미팅) with Trello',
-      '데이터베이스 스키마 디자인 및 ERD 작성',
-      'Nodejs API 설계 및 Restful API 구현',
-      '클래스101 사내 친목조 생성 알고리즘 및 API 구현',
-      '클래스101 사내 비품 아이템(노트북, 모니터 등) CRUD API 구현',
-      '쿼리스트링에 따른 총 비품 아이템 필터링, 정렬, 페이징 구현',
-      'AWS EC2 배포, AWS DocumentDB에 DB 구축',
-      'API 문서 작성',
-    ],
-    skills: ['Javascript', 'Node.js', 'MongoDB', 'Mongoose', 'AWS'],
-    gifs: [ex_admin_gif_1, ex_admin_gif_2, ex_admin_gif_3, ex_admin_gif_4],
-    date: '19.11.25 ~ 19.12.20',
-    additionalSources: [
-      {
-        title: 'EX ADMIN 대시보드 GITHUB REPO',
-        link: 'https://github.com/saegeullee/groupmeal',
-      },
-      {
-        title: 'EX ADMIN 대시보드 Full Video',
-        link: 'https://www.youtube.com/watch?v=mdrhlrZpZHo&t=205s',
-      },
-    ],
-  },
-  {
-    title: 'Wecode101',
+    title: '빈티지 옷가게 지도',
     description:
       '취미 구매,판매 플랫폼 클래스101 클론 프로젝트입니다. 백엔드 개발자 2명, 프론트엔드 개발자 3명과 협업하여 2주동안 개발했습니다.',
     skills: ['Javascript', 'Node.js', 'MongoDB', 'Mongoose'],
@@ -87,6 +58,39 @@ export const projectsData = [
       {
         title: '요기용 프로젝트 Full Video(앱)',
         link: 'https://www.youtube.com/watch?v=L7FsHvjPA-c',
+      },
+    ],
+  },
+  {
+    title: '관리자 게시판',
+    description:
+      '교육기관에서 관리자 게시판을 개발했습니다. 개인 프로젝트입니다.',
+    additionalDescription:
+      'Java, Jsp, Ajax, MyBatis, Oracle을 이용해서 개발했습니다.',
+    whatIHaveDone: [
+      '게시판별로 검색, 페이징',
+      '회원관리 : 아이디 중복체크, daum address api를 이용한 가입',
+      '설문조사 : 기간별 검색, 검색어를 통한 검색, 설문조사 결과를 그래프로 구현',
+      '문제은행 : 페이지별로 제출 답안을 한번에 저장',
+      '자유게시판 : 공지와 답글이 구현된 계층형 게시판, 게시글 보기 내에 댓글',
+      '코딩게시판 : 게시판 DB 테이블의 게시판 구분 column을 이용해 같은 형식의 게시판 구현',
+      'Mall(상품관리) : 이미지 업로드, 장바구니 테이블과의 조인을 통한 상품별 장바구니 수 확인',
+      'Mall(쇼핑몰) : 세션을 이용한 비회원 장바구니',
+      'Cart Chart : google chart api를 이용, 회원카트와 비회원카트에 담긴 상품 현황',
+      'Email : 회원에게 메일 발송',
+      '로그인, 로그아웃, 개인정보 수정, 탈퇴 : 세션을 이용한 개인정보 수정, 탈퇴',
+    ],
+    skills: ['Java', 'Jsp', 'Ajax', 'MyBatis', 'Oracle'],
+    gifs: [ex_admin_gif_1, ex_admin_gif_2, ex_admin_gif_3, ex_admin_gif_4],
+    date: '21.01. ~ 21.03.',
+    additionalSources: [
+      {
+        title: '관리자 게시판 github',
+        link: 'https://github.com/jgd0423/workspace/tree/main/jspMybatis',
+      },
+      {
+        title: '관리자 게시판 Full Video',
+        link: '',
       },
     ],
   },
@@ -165,7 +169,8 @@ export const projectsData = [
 export const intro_title_1 = '안녕하세요. 저는 정금담입니다.';
 export const intro_title_2 = '';
 
-export const intro_details_1 = '';
+export const intro_details_1 =
+  '개발을 하며 작은 성취를 지속적으로 이어가는 것이 즐겁습니다. 배움이 많은 곳에 취직해 즐거움을 이어가고 싶습니다.';
 
 export const intro_details_2 = '';
 
@@ -176,13 +181,13 @@ export const overall_experiences = [
     title: '한국it교육원',
     date: '2020. 10. - 2021. 4.',
     details:
-      '백엔드 과정을 수료했습니다. 개인별 게시판 프로젝트를 진행하였습니다.',
+      'Java Oracle 백엔드 과정을 수료했습니다. 개인별 게시판 프로젝트를 진행하였습니다.',
   },
   {
     title: '코드잇',
     date: '2020. 3. - 2020. 12.',
     details:
-      '온라인 교육 사이트 코드잇에서 컴퓨터 기초 지식을 공부했습니다. 컴퓨터 개론, 파이썬기초, html, css, javacript기초, 알고리즘, 자료 구조, 유닉스 커맨드라인 기초, git, sql 기초 등을 익혔습니다.',
+      '온라인 교육 사이트 코드잇에서 코딩 기초 지식을 공부했습니다. 컴퓨터 개론, 파이썬기초, html, css, javacript기초, 알고리즘, 자료 구조, 유닉스 커맨드라인 기초, git, sql 기초 등을 익혔습니다.',
   },
 ];
 
@@ -192,7 +197,7 @@ export const skills = [
   {
     title: '알고리즘',
     details: [
-      '알고리즘에 대한 지식을 넓히기 위해서 algospot에 있는 코딩테스트를 수행했습니다.',
+      'algospot에 있는 코딩테스트를 수행했습니다.',
       '「프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략」을 공부했습니다.',
     ],
     images: [algospot_1, algospot_2, algospot_3, algospot_4],
@@ -205,8 +210,8 @@ export const skills = [
   {
     title: '화면구현',
     details: [
-      'nomadcoder에서 React, React Hooks, noSql 데이터베이스인 Firebase 등을 익혔습니다.',
+      'nomadcoder에서 Javascript(es6), React, React Hooks, noSql 데이터베이스인 Firebase 등을 익혔습니다.',
     ],
-    images: [nomadcoder_1, nomadcoder_2],
+    images: [nomadcoder_1, nomadcoder_2, nomadcoder_3, nomadcoder_4],
   },
 ];
