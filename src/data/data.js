@@ -1,16 +1,3 @@
-import yogiyong_gif_1 from '../gif/yogiyong/yogiyong_1.gif';
-import yogiyong_gif_2 from '../gif/yogiyong/yogiyong_2.gif';
-import yogiyong_gif_3 from '../gif/yogiyong/yogiyong_3.gif';
-import class101_creator_gif_1 from '../gif/class101/class101_creator_1.gif';
-import class101_creator_gif_2 from '../gif/class101/class101_creator_2.gif';
-import class101_user_gif_1 from '../gif/class101/class101_user_1.gif';
-import westagram_gif_1 from '../gif/westagram/westagram_gif_1.gif';
-import westagram_gif_2 from '../gif/westagram/westagram_gif_2.gif';
-import westagram_gif_3 from '../gif/westagram/westagram_gif_3.gif';
-import ex_admin_gif_1 from '../gif/ex-admin/ex_admin_gif_1.gif';
-import ex_admin_gif_2 from '../gif/ex-admin/ex_admin_gif_2.gif';
-import ex_admin_gif_3 from '../gif/ex-admin/ex_admin_gif_3.gif';
-import ex_admin_gif_4 from '../gif/ex-admin/ex_admin_gif_4.gif';
 import algospot_1 from '../image/algospot_1.PNG';
 import algospot_2 from '../image/algospot_2.PNG';
 import algospot_3 from '../image/algospot_3.PNG';
@@ -28,7 +15,6 @@ export const projectsData = [
     description:
       '대구 지역의 빈티지 옷가게 정보 사이트 프로젝트입니다. 개인 프로젝트입니다.',
     skills: ['Javascript', 'Html', 'Css', 'Java', 'Jsp', 'Oracle', 'MyBatis'],
-    gifs: [class101_creator_gif_1, class101_creator_gif_2, class101_user_gif_1],
     whatIHaveDone: [
       '카카오지도 api 활용',
       '지도에 현재 위치 표시',
@@ -42,12 +28,12 @@ export const projectsData = [
     date: '21.02. ~ 21.03.',
     additionalSources: [
       {
-        title: '빈티지 옷가게 지도 GITHUB',
-        link: 'https://github.com/jgd0423/secondhandClothingMap',
+        title: '빈티지 옷가게 지도 Full Video',
+        link: 'https://youtu.be/a6tAnmqupHA',
       },
       {
-        title: '빈티지 옷가게 지도 Full Video',
-        link: 'https://www.youtube.com/watch?v=4tiTjufaJg8',
+        title: '빈티지 옷가게 지도 github',
+        link: 'https://github.com/jgd0423/secondhandClothingMap',
       },
     ],
   },
@@ -71,86 +57,38 @@ export const projectsData = [
       '로그인, 로그아웃, 개인정보 수정, 탈퇴 : 세션을 이용한 개인정보 수정, 탈퇴',
     ],
     skills: ['Java', 'Jsp', 'Ajax', 'Oracle', 'MyBatis'],
-    gifs: [ex_admin_gif_1, ex_admin_gif_2, ex_admin_gif_3, ex_admin_gif_4],
     date: '21.01. ~ 21.03.',
     additionalSources: [
+      {
+        title: '관리자 게시판 Full Video',
+        link: 'https://youtu.be/pVTNS6KfFnE',
+      },
       {
         title: '관리자 게시판 github',
         link: 'https://github.com/jgd0423/workspace/tree/main/jspMybatis',
       },
-      {
-        title: '관리자 게시판 Full Video',
-        link: '',
-      },
     ],
   },
   {
-    title: 'Yogiyong',
-    description:
-      '온라인 음식 배달 서비스 요기요 클론 프로젝트입니다. 백엔드 개발자 2명, 프론트엔드 개발자 3명과 협업하여 2주동안 개발했습니다.',
-    skills: [
-      'Python',
-      'Django',
-      'Mysql',
-      'React',
-      'Redux',
-      'AWS',
-      'Javascript',
-      'Html',
-      'Css',
+    title: '트위터 클론코딩',
+    description: 'React Hooks와 Firebase로 구현한 CRUD페이지입니다.',
+    whatIHaveDone: [
+      'React Hooks를 이용한 화면 구현',
+      'Firebase 제공 api를 이용해 google, github 계정을 이용한 로그인 구현',
+      '이미지, 글 업로드',
+      '프로필 수정',
+      '로그인 계정이 작성한 글 수정, 삭제',
     ],
-    gifs: [yogiyong_gif_1, yogiyong_gif_2, yogiyong_gif_3],
-    date: '19.10.28 ~ 19.11.8',
-    whatIHaveDoneSummary:
-      '이 프로젝트에서 저는 백엔드를 위주로 개발하였고 프론트엔드 일부분을 개발했습니다.',
-    whatIHaveDoneForBackend: [
-      'Scrum 진행(주별 스프린트 미팅, 일별 스탠드업 미팅) with Trello',
-      '요기요 모델 설계 및 ERD 작성',
-      'RESTFUL API 설계 및 구현',
-      '레스토랑 관련 모델 구현',
-      '요기요 사이트 크롤링 구현 및 DB 구축',
-      '모든 식당 카테고리 정보 GET 엔드포인트 구현',
-      '식당 카테고리별 식당 목록 GET 엔드포인트 구현(정렬 및 페이징 포함)',
-      '식당 검색 기능 엔드포인트 구현(페이징 포함)',
-    ],
-    whatIHaveDoneForFrontend: [
-      'Google Maps API를 사용하여 구글 지도에 현재 가게목록의 가게위치 보여주기 구현',
-      '주문 완료시 나오는 땡큐페이지 UI 구현',
-      '사용자의 주문 내역 페이지 UI 구현',
-      '리덕스를 사용하여 음식 장바구니 추가,제거,리셋 및 주문 로직 구현',
-    ],
+    skills: ['Javascript', 'React', 'React Hooks', 'Firebase'],
+    date: '21.02.19 ~ 21.03.03',
     additionalSources: [
       {
-        title: '요기용 백엔드 GITHUB REPO',
-        link: 'https://github.com/wecode-bootcamp-korea/yogiyong-backend',
+        title: '트위터 클론코딩 배포 페이지',
+        link: 'https://jgd0423.github.io/nwitter/#/',
       },
       {
-        title: '요기용 프론트엔드 GITHUB REPO',
-        link: 'https://github.com/wecode-bootcamp-korea/yogiyong-frontend',
-      },
-      {
-        title: '요기용 프로젝트 후기',
-        link:
-          'https://saegeullee.github.io/category/project/1st-group-project-review',
-      },
-      {
-        title: '요기용 프로젝트 Full Video',
-        link: 'https://www.youtube.com/watch?v=ntokAbeasu8',
-      },
-    ],
-  },
-  {
-    title: 'Instagram',
-    description:
-      '인스타그램 클론 프로젝트입니다. 프론트엔드 UI를 개발했습니다.',
-    skills: ['Javascript', 'React', 'Html', 'Css'],
-    gifs: [westagram_gif_1, westagram_gif_2, westagram_gif_3],
-    date: '19.10.14 ~ 19.10.24',
-    whatIHaveDone: ['프론트엔드 UI를 개발했습니다.'],
-    additionalSources: [
-      {
-        title: 'Instagram GITHUB REPO',
-        link: 'https://github.com/saegeullee/Instagram_react',
+        title: '트위터 클론코딩 github',
+        link: 'https://github.com/jgd0423/nwitter',
       },
     ],
   },
@@ -171,7 +109,7 @@ export const overall_experiences = [
     title: '한국it교육원',
     date: '2020. 10. - 2021. 4.',
     details:
-      'Java Oracle 백엔드 과정을 수료했습니다. 개인별 게시판 프로젝트를 진행하였습니다.',
+      'Java Jsp Spring Oracle 백엔드 과정을 수료했습니다. 개인별 게시판 프로젝트를 진행하였습니다.',
   },
   {
     title: '코드잇',
