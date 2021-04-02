@@ -26,38 +26,28 @@ export const projectsData = [
   {
     title: '빈티지 옷가게 지도',
     description:
-      '취미 구매,판매 플랫폼 클래스101 클론 프로젝트입니다. 백엔드 개발자 2명, 프론트엔드 개발자 3명과 협업하여 2주동안 개발했습니다.',
-    skills: ['Javascript', 'Node.js', 'MongoDB', 'Mongoose'],
+      '대구 지역의 빈티지 옷가게 정보 사이트 프로젝트입니다. 개인 프로젝트입니다.',
+    skills: ['Javascript', 'Html', 'Css', 'Java', 'Jsp', 'Oracle', 'MyBatis'],
     gifs: [class101_creator_gif_1, class101_creator_gif_2, class101_user_gif_1],
-    whatIHaveDoneSummary:
-      '이 프로젝트에는 두 개의 클라이언트가 있습니다. 웹(리액트)과 앱(리액트네이티브)입니다. 웹은 크리에이터 관점에서 자신의 클래스를 개설하는 기능을 개발하였고 앱은 일반 사용자 관점에서 클래스101 플랫폼에 등록된 클래스들을 보고 구매하는 기능을 개발하였습니다. 저는 전자의 백엔드를 개발했습니다. ',
     whatIHaveDone: [
-      'Scrum 진행(주별 스프린트 미팅, 일별 스탠드업 미팅) with Trello',
-      '데이터베이스 스키마 디자인 및 ERD 작성',
-      'Nodejs API 설계 및 Restful API 구현',
-      'Bcrypt 사용하여 사용자 PW 암호화, JWT를 사용하여 사용자 인증,인가 구현',
-      '클래스 CRUD API 구현',
-      '크리에이터 프로필 CRUD API 구현',
-      'Multer을 사용하여 이미지 저장 구현',
+      '카카오지도 api 활용',
+      '지도에 현재 위치 표시',
+      '지도에 가게 위치 마커와 오버레이 표시',
+      '오버레이에는 가게의 온라인샵과 인스타그램 정보 표시',
+      '현재 위치와 db에 저장된 가게 좌표를 비교하여 기준 거리 이내의 가게정보만 db에서 불러옴',
+      'instagram image parsing api를 이용하여 해당 가게 색션에 사진 구현',
+      '색션의 제목을 누르면 해당 가게의 지도로 이동, 지도의 마커를 누르면 해당 색션으로 이동',
+      '가게 정보에 대한 CRUD',
     ],
-    date: '19.11.11 ~ 19.11.22',
+    date: '21.02. ~ 21.03.',
     additionalSources: [
       {
-        title: '위코드101 백엔드 GITHUB REPO',
-        link: 'https://github.com/wecode-bootcamp-korea/class101-backend',
+        title: '빈티지 옷가게 지도 GITHUB',
+        link: 'https://github.com/jgd0423/secondhandClothingMap',
       },
       {
-        title: '위코드101 프로젝트 후기',
-        link:
-          'https://saegeullee.github.io/category/project/2nd-group-project-review',
-      },
-      {
-        title: '요기용 프로젝트 Full Video(웹)',
+        title: '빈티지 옷가게 지도 Full Video',
         link: 'https://www.youtube.com/watch?v=4tiTjufaJg8',
-      },
-      {
-        title: '요기용 프로젝트 Full Video(앱)',
-        link: 'https://www.youtube.com/watch?v=L7FsHvjPA-c',
       },
     ],
   },
@@ -68,19 +58,19 @@ export const projectsData = [
     additionalDescription:
       'Java, Jsp, Ajax, MyBatis, Oracle을 이용해서 개발했습니다.',
     whatIHaveDone: [
-      '게시판별로 검색, 페이징',
+      '게시판별로 검색, 페이징 구현',
       '회원관리 : 아이디 중복체크, daum address api를 이용한 가입',
       '설문조사 : 기간별 검색, 검색어를 통한 검색, 설문조사 결과를 그래프로 구현',
       '문제은행 : 페이지별로 제출 답안을 한번에 저장',
       '자유게시판 : 공지와 답글이 구현된 계층형 게시판, 게시글 보기 내에 댓글',
-      '코딩게시판 : 게시판 DB 테이블의 게시판 구분 column을 이용해 같은 형식의 게시판 구현',
+      '코딩게시판 : 쿼리스트링과 DB 테이블의 게시판 구분 column을 이용해 같은 형식의 게시판 구현',
       'Mall(상품관리) : 이미지 업로드, 장바구니 테이블과의 조인을 통한 상품별 장바구니 수 확인',
       'Mall(쇼핑몰) : 세션을 이용한 비회원 장바구니',
       'Cart Chart : google chart api를 이용, 회원카트와 비회원카트에 담긴 상품 현황',
       'Email : 회원에게 메일 발송',
       '로그인, 로그아웃, 개인정보 수정, 탈퇴 : 세션을 이용한 개인정보 수정, 탈퇴',
     ],
-    skills: ['Java', 'Jsp', 'Ajax', 'MyBatis', 'Oracle'],
+    skills: ['Java', 'Jsp', 'Ajax', 'Oracle', 'MyBatis'],
     gifs: [ex_admin_gif_1, ex_admin_gif_2, ex_admin_gif_3, ex_admin_gif_4],
     date: '21.01. ~ 21.03.',
     additionalSources: [
@@ -210,7 +200,7 @@ export const skills = [
   {
     title: '화면구현',
     details: [
-      'nomadcoder에서 Javascript(es6), React, React Hooks, noSql 데이터베이스인 Firebase 등을 익혔습니다.',
+      'nomadcoder에서 Javascript(es6), React, React Hooks, noSql Firebase 등을 익혔습니다.',
     ],
     images: [nomadcoder_1, nomadcoder_2, nomadcoder_3, nomadcoder_4],
   },
