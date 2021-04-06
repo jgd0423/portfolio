@@ -12,6 +12,20 @@ import secondhandMap_1 from '../gif/secondhandMap/secondhandMap_gif_1.gif';
 import secondhandMap_2 from '../gif/secondhandMap/secondhandMap_gif_2.gif';
 import secondhandMap_3 from '../gif/secondhandMap/secondhandMap_gif_3.gif';
 import secondhandMap_4 from '../gif/secondhandMap/secondhandMap_gif_4.gif';
+import twitterClone_1 from '../gif/twitterClone/twitterClone_gif_1.gif';
+import twitterClone_2 from '../gif/twitterClone/twitterClone_gif_2.gif';
+import twitterClone_3 from '../gif/twitterClone/twitterClone_gif_3.gif';
+import twitterClone_4 from '../gif/twitterClone/twitterClone_gif_4.gif';
+import dashboard_1 from '../gif/dashboard/dashboard_gif_1.gif';
+import dashboard_2 from '../gif/dashboard/dashboard_gif_2.gif';
+import dashboard_3 from '../gif/dashboard/dashboard_gif_3.gif';
+import dashboard_4 from '../gif/dashboard/dashboard_gif_4.gif';
+import dashboard_5 from '../gif/dashboard/dashboard_gif_5.gif';
+import dashboard_6 from '../gif/dashboard/dashboard_gif_6.gif';
+import dashboard_7 from '../gif/dashboard/dashboard_gif_7.gif';
+import dashboard_8 from '../gif/dashboard/dashboard_gif_8.gif';
+import dashboard_9 from '../gif/dashboard/dashboard_gif_9.gif';
+import dashboard_10 from '../gif/dashboard/dashboard_gif_10.gif';
 
 export const projectsData = [
   {
@@ -30,7 +44,7 @@ export const projectsData = [
       '색션의 제목을 누르면 해당 가게의 지도로 이동, 지도의 마커를 누르면 해당 색션으로 이동',
       '가게 정보에 대한 CRUD',
     ],
-    date: '21.02. ~ 21.03.',
+    date: '21.03.03. ~ 21.04.02',
     additionalSources: [
       {
         title: '빈티지 옷가게 지도 Full Video',
@@ -62,6 +76,18 @@ export const projectsData = [
       '로그인, 로그아웃, 개인정보 수정, 탈퇴 : 세션을 이용한 개인정보 수정, 탈퇴',
     ],
     skills: ['Java', 'Jsp', 'Spring', 'Ajax', 'Oracle', 'MyBatis'],
+    gifs: [
+      dashboard_1,
+      dashboard_2,
+      dashboard_3,
+      dashboard_4,
+      dashboard_5,
+      dashboard_6,
+      dashboard_7,
+      dashboard_8,
+      dashboard_9,
+      dashboard_10,
+    ],
     date: '21.01. ~ 21.03.',
     additionalSources: [
       {
@@ -85,6 +111,7 @@ export const projectsData = [
       '로그인 계정이 작성한 글 수정, 삭제',
     ],
     skills: ['Javascript', 'React', 'React Hooks', 'Firebase'],
+    gifs: [twitterClone_1, twitterClone_2, twitterClone_3, twitterClone_4],
     date: '21.02.19 ~ 21.03.03',
     additionalSources: [
       {
@@ -130,7 +157,7 @@ export const skills = [
   {
     title: '알고리즘',
     details: [
-      'algospot에 있는 코딩테스트를 수행했습니다.',
+      'algospot.com에 있는 코딩테스트를 수행했습니다.',
       '「프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략」을 공부했습니다.',
     ],
     images: [algospot_1, algospot_2, algospot_3, algospot_4],
