@@ -8,6 +8,10 @@ import nomadcoder_1 from '../image/nomadcoder_1.PNG';
 import nomadcoder_2 from '../image/nomadcoder_2.PNG';
 import nomadcoder_3 from '../image/nomadcoder_3.PNG';
 import nomadcoder_4 from '../image/nomadcoder_4.PNG';
+import secondhandMap_1 from '../gif/secondhandMap/secondhandMap_gif_1.gif';
+import secondhandMap_2 from '../gif/secondhandMap/secondhandMap_gif_2.gif';
+import secondhandMap_3 from '../gif/secondhandMap/secondhandMap_gif_3.gif';
+import secondhandMap_4 from '../gif/secondhandMap/secondhandMap_gif_4.gif';
 
 export const projectsData = [
   {
@@ -15,6 +19,7 @@ export const projectsData = [
     description:
       '대구 지역의 빈티지 옷가게 정보 사이트 프로젝트입니다. 개인 프로젝트입니다.',
     skills: ['Javascript', 'Html', 'Css', 'Java', 'Jsp', 'Oracle', 'MyBatis'],
+    gifs: [secondhandMap_1, secondhandMap_2, secondhandMap_3, secondhandMap_4],
     whatIHaveDone: [
       '카카오지도 api 활용',
       '지도에 현재 위치 표시',
@@ -42,13 +47,13 @@ export const projectsData = [
     description:
       '교육기관에서 관리자 게시판을 개발했습니다. 개인 프로젝트입니다.',
     additionalDescription:
-      'Java, Jsp, Ajax, MyBatis, Oracle을 이용해서 개발했습니다.',
+      'Java, Jsp, Spring, Ajax, MyBatis, Oracle을 이용해서 개발했습니다.',
     whatIHaveDone: [
-      '게시판별로 검색, 페이징 구현',
+      '각 게시판 별로 ajax 사용. 검색, 페이징 구현',
       '회원관리 : 아이디 중복체크, daum address api를 이용한 가입',
       '설문조사 : 기간별 검색, 검색어를 통한 검색, 설문조사 결과를 그래프로 구현',
       '문제은행 : 페이지별로 제출 답안을 한번에 저장',
-      '자유게시판 : 공지와 답글이 구현된 계층형 게시판, 게시글 보기 내에 댓글',
+      '자유게시판 : 공지와 답글이 구현된 계층형 게시판, 게시글 보기 내에 댓글 ajax',
       '코딩게시판 : 쿼리스트링과 DB 테이블의 게시판 구분 column을 이용해 같은 형식의 게시판 구현',
       'Mall(상품관리) : 이미지 업로드, 장바구니 테이블과의 조인을 통한 상품별 장바구니 수 확인',
       'Mall(쇼핑몰) : 세션을 이용한 비회원 장바구니',
@@ -56,7 +61,7 @@ export const projectsData = [
       'Email : 회원에게 메일 발송',
       '로그인, 로그아웃, 개인정보 수정, 탈퇴 : 세션을 이용한 개인정보 수정, 탈퇴',
     ],
-    skills: ['Java', 'Jsp', 'Ajax', 'Oracle', 'MyBatis'],
+    skills: ['Java', 'Jsp', 'Spring', 'Ajax', 'Oracle', 'MyBatis'],
     date: '21.01. ~ 21.03.',
     additionalSources: [
       {

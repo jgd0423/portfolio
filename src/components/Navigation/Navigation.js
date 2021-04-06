@@ -11,10 +11,10 @@ class Navigation extends Component {
   render() {
     return (
       <div className={classes['navigation']}>
-        <Text aboutDisplayed={this.props.aboutDisplayed}>about</Text>
-        <Text skillsDisplayed={this.props.skillsDisplayed}>studies</Text>
-        <Text projectDisplayed={this.props.projectDisplayed}>projects</Text>
-        <Link target='github'>github</Link>
+        <Text aboutDisplayed={this.props.aboutDisplayed}>About</Text>
+        <Text skillsDisplayed={this.props.skillsDisplayed}>Studies</Text>
+        <Text projectDisplayed={this.props.projectDisplayed}>Projects</Text>
+        <Link target='github'>Github</Link>
       </div>
     );
   }
